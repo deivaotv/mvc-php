@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.app {
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    width: 250px;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9A9A9A;
+    padding: 50px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form button {
+    margin-top: 20px;
+    background-color: darkslateblue;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.form input {
+    height: 25px;
+}
+
+.form select {
+    height: 35px;
+}
+
+.form p {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
